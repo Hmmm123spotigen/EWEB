@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('Arrow-blue-background-vector.jpg'); /* Replace with your image path */
+    background-size: cover; /* This makes the image cover the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.container {
+    background: rgb(238, 238, 238);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 1, 1, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #111010;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #0004ff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #980707;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #05244699;
+}
+
+.message {
+    margin-top: 15px;
+    color: #666;
+}
+
+.message a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
